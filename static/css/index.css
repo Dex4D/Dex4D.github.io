@@ -192,3 +192,9 @@ h2.title.is-3.is-size-4-mobile {
   text-decoration-thickness: 3px;
   text-underline-offset: 0.05em;
 }
+
+.ap2ap-source-btn.is-link {
+  background-color: #2f71bc !important;
+  border-color: #2f71bc !important;
+  color: #fff !important;
+}
