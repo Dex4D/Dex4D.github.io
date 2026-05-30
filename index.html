@@ -147,7 +147,7 @@
         <li><a href="#video">Summary Video</a></li>
         <li><a href="#policy">Task-Agnostic Point Track Policy</a></li>
         <li><a href="#planner">Video Planner and Deployment</a></li>
-        <li><a href="#demo">Real-World Demo</a></li>
+        <li><a href="#demo">Zero-Shot Dexterous Manipulation</a></li>
         <!-- <li><a href="#qa">Q & A</a></li> -->
       </ul>
     </nav>
@@ -487,7 +487,7 @@
 
 <section class="section is-small" id="demo">
   <div class="container is-max-desktop">
-    <h2 class="title is-1 has-text-centered is-size-3-mobile">Real-World Demo</h2>
+    <h2 class="title is-1 has-text-centered is-size-3-mobile">Zero-Shot Dexterous Manipulation</h2>
     <p class="has-text-centered" style="margin:-0.5rem auto 1.25rem auto; color:#1a5d1a; background:#e6f6e6; border:1px solid #c5e6c5; border-radius:10px; display:block; width:max-content; padding:0.55rem 1rem; font-size:1.5rem; box-shadow:0 10px 24px rgba(46,109,191,0.12); max-width:100%; height:auto;">
       <b>Autonomous</b>, 2x
       <br>
@@ -701,6 +701,46 @@
       <figure style="display:inline-block;">
         <video id="generalization-mixed-video" muted playsinline controls src="static/videos/generalization/mixed.mp4" style="width:90%; border-radius:10px;"></video>
       </figure>
+    </div>
+    <br><br>
+
+    <h2 class="title is-3 is-size-4-mobile">Dexterity on In-Hand and Non-Prehensile Manipulation</h2>
+    <div style="background:#e8f3ff; border:1px solid #b9d5ff; border-radius:12px; padding:1rem; box-shadow:0 8px 18px rgba(46,109,191,0.08); margin-top:0.75rem;">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <figure>
+            <video autoplay muted loop playsinline controls src="static/videos/dexterity/in_hand_compressed.mp4" style="width:100%; aspect-ratio:16/9; border-radius:10px; display:block;"></video>
+            <figcaption class="has-text-centered has-text-weight-semibold" style="margin-top:0.5rem;">In-Hand Manipulation</figcaption>
+          </figure>
+        </div>
+        <div class="column has-text-centered">
+          <figure>
+            <video autoplay muted loop playsinline controls src="static/videos/dexterity/non_prehensile_compressed.mp4" style="width:100%; aspect-ratio:16/9; border-radius:10px; display:block;"></video>
+            <figcaption class="has-text-centered has-text-weight-semibold" style="margin-top:0.5rem;">Non-Prehensile Manipulation</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="content" style="margin-top:1rem; margin-left:3rem; margin-right:3rem;">
+        <p>
+          Dex4D exhibits dexterous behavior beyond pick-and-place tasks, including in-hand object reorientation and non-prehensile interactions.
+        </p>
+      </div>
+    </div>
+    <br><br>
+
+    <h2 class="title is-3 is-size-4-mobile">Seamless Transfer to XHand</h2>
+    <div style="background:#e8f3ff; border:1px solid #b9d5ff; border-radius:12px; padding:1rem; box-shadow:0 8px 18px rgba(46,109,191,0.08); margin-top:0.75rem;">
+      <div class="has-text-centered">
+        <figure style="display:inline-block; width:70%;">
+          <video autoplay muted loop playsinline controls src="static/videos/xhand_compressed.mp4" style="width:100%; border-radius:10px; display:block;"></video>
+          <figcaption class="has-text-centered has-text-weight-semibold" style="margin-top:0.5rem;">XHand Transfer</figcaption>
+        </figure>
+      </div>
+      <div class="content" style="margin-top:1rem; margin-left:3rem; margin-right:3rem;">
+        <p>
+          With the same simulation setting (reward, curriculum, etc.), the training can be seamlessly transferred to the XHand., demonstrating that our AP2AP training recipe is not tied to a single dexterous hand embodiment.
+        </p>
+      </div>
     </div>
   </div>
 </section>
