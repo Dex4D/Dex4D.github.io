@@ -34,7 +34,7 @@
 <section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative;">
   <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%;min-height: 56.25vw;">
     <video playsinline autoplay muted loop>
-      <source src="./static/videos/teaser.mp4" type="video/mp4">
+      <source src="./static/videos/dex4d_real_world_generalization_grid_4x4_looped.mp4" type="video/mp4">
     </video>
   </div>
   <div class="is-hidden-tablet"
@@ -43,7 +43,7 @@
     top: 50%;
     transform: translate3d(-50%, -50%, 0);">
     <video playsinline autoplay muted loop style="width: 90%; height: auto; min-height: 100%;">
-      <source src="./static/videos/teaser.mp4" type="video/mp4">
+      <source src="./static/videos/dex4d_real_world_generalization_grid_5x3_mobile_looped.mp4" type="video/mp4">
     </video>
   </div>
   <div class="overlay"></div>
@@ -497,13 +497,13 @@
       <br>
       <b>Everything</b> except the robot itself is <b>unseen</b> to the policy
     </p>
-    <h2 class="title is-3 is-size-4-mobile">Gallery</h2>
+    <h2 class="title is-3 is-size-4-mobile">Task Gallery</h2>
     <div style="background:#e8f3ff; border:1px solid #b9d5ff; border-radius:12px; padding:1rem; box-shadow:0 10px 24px rgba(46,109,191,0.12);">
     <p class="has-text-centered has-text-weight-semibold" style="margin:-0.5rem auto 0.1rem auto; display:block; width:max-content; padding:0.5rem; font-size:1.5rem;">
       scroll down to see more ⬇️
     </p>
     <div id="rw-gallery-scroller" style="display:flex; gap:0.5rem; align-items:center;">
-    <div class="demo-vertical" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:1rem; max-height:720px; overflow-y:auto; padding:0.25rem; flex:1 1 auto;">
+    <div class="demo-vertical" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:1rem; max-height:960px; overflow-y:auto; padding:0.25rem; flex:1 1 auto;">
       <div data-card>
         <figure>
           <video autoplay muted loop playsinline controls src="static/videos/real-world-demos/broccoli2plate.mp4" style="width:100%; aspect-ratio:16/9; border-radius:10px; display:block;"></video>
@@ -652,7 +652,7 @@
     </div>
     <br><br>
 
-    <h2 class="title is-3 is-size-4-mobile">Generalization</h2>
+    <h2 class="title is-3 is-size-4-mobile">Strong Zero-Shot Generalization</h2>
     <div style="background:#e8f3ff; border:1px solid #b9d5ff; border-radius:12px; padding:1rem; box-shadow:0 8px 18px rgba(46,109,191,0.08); margin-top:0.75rem;">
     <div style="position:relative; display:flex; align-items:center; gap:0.5rem; margin-top:0.25rem;">
       <button type="button" aria-label="Scroll left"
@@ -696,15 +696,15 @@
       </p>
     </div>
     </div>
-    <br>
+    <!-- <br>
     <div class="has-text-centered" style="margin-top:1rem;">
       <figure style="display:inline-block;">
         <video id="generalization-mixed-video" muted playsinline controls src="static/videos/generalization/mixed.mp4" style="width:90%; border-radius:10px;"></video>
       </figure>
-    </div>
+    </div> -->
     <br><br>
 
-    <h2 class="title is-3 is-size-4-mobile">Dexterity on In-Hand and Non-Prehensile Manipulation</h2>
+    <h2 class="title is-3 is-size-4-mobile">Dexterity in In-Hand and Non-Prehensile Manipulation</h2>
     <div style="background:#e8f3ff; border:1px solid #b9d5ff; border-radius:12px; padding:1rem; box-shadow:0 8px 18px rgba(46,109,191,0.08); margin-top:0.75rem;">
       <div class="columns is-centered">
         <div class="column has-text-centered">
@@ -728,7 +728,7 @@
     </div>
     <br><br>
 
-    <h2 class="title is-3 is-size-4-mobile">Seamless Transfer to XHand</h2>
+    <h2 class="title is-3 is-size-4-mobile">Seamless Transfer to Different Embodiments</h2>
     <div style="background:#e8f3ff; border:1px solid #b9d5ff; border-radius:12px; padding:1rem; box-shadow:0 8px 18px rgba(46,109,191,0.08); margin-top:0.75rem;">
       <div class="has-text-centered">
         <figure style="display:inline-block; width:70%;">
@@ -738,7 +738,7 @@
       </div>
       <div class="content" style="margin-top:1rem; margin-left:3rem; margin-right:3rem;">
         <p>
-          With the same simulation setting (reward, curriculum, etc.), the training can be seamlessly transferred to the XHand., demonstrating that our AP2AP training recipe is not tied to a single dexterous hand embodiment.
+          With the same simulation setting (reward, curriculum, etc.), the training can be seamlessly transferred to the XHand, demonstrating that our AP2AP training recipe is not tied to a single dexterous hand embodiment.
         </p>
       </div>
     </div>
